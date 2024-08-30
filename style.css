@@ -1,0 +1,215 @@
+body {
+  top: 0px;
+  margin-top: 0px 0px;
+  /* cursor: pointer; */
+  padding: 0px 0px;
+  background-color: aliceblue;
+  /* font-family: "Gill Sans Extrabold", sans-serif; */
+  font-family: cursive;
+}
+.dev {
+  color: black;
+}
+#upper-header {
+  border: 2px solid rgb(252, 249, 249);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  display: flex;
+  text-decoration: none;
+  /* margin: 2rem; */
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(134, 224, 134);
+  border: 1px solid rgb(89, 141, 44);
+  border-radius: 1.2rem;
+}
+.upr {
+  list-style: none;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.match-type {
+  text-align: left;
+  text-align: center;
+  cursor: pointer;
+}
+.ram {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+
+}
+.img {
+  width: 150px;
+}
+.upr:hover {
+  /* background-color: rgb(84, 135, 84);
+  border: 0.5px solid rgb(70, 204, 124);
+  border-radius: 1.5rem; */
+  cursor: pointer;
+}
+.second-header {
+  display: flex;
+  background-color: #4a4a4a;
+  margin-bottom: 0rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 0rem;
+
+  border-radius: 1.2rem;
+}
+.x {
+  padding: 0.5rem;
+  padding-bottom: 0.2rem;
+  /* padding-left: 0.5rem; */
+  font-size: 0.7rem;
+  color: aliceblue;
+}
+.MATCHES {
+  /* border: 1px solid wheat; */
+  background-color: rgb(41, 41, 41);
+  border-radius: 1.2rem;
+  font-size: 0.9rem;
+}
+.x:hover {
+  background-color: rgb(198, 20, 20);
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.block {
+  width: 250px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 1px;
+  min-width: 250px;
+  margin-top: 0.5rem;
+  padding-right: 5px;
+  background-color: rgb(245, 245, 242);
+}
+
+.team1-logo {
+  width: 20px;
+  height: 20px;
+  /* border-radius: 5px; */
+}
+
+.block-header {
+  font-size: 0.8rem;
+  display: flex;
+  margin-top: 0.2rem;
+}
+
+.block-header-next {
+  display: flex;
+  margin-left: 2rem;
+  border: 0.1px solid black;
+  border-radius: 10px;
+  max-height: 20px;
+  color: white;
+  background-color: rgb(115, 18, 164);
+  box-shadow: 0.5px 0.5px whitesmoke;
+}
+.team2 {
+  display: flex;
+  /* padding: 1.2rem; */
+  margin: 1.2rem;
+  margin-left: 0.1rem;
+  /* padding: 1.5rem; */
+}
+.team2-name {
+  margin-left: 12px;
+  margin-right: 40px;
+}
+.team1-name {
+  margin-left: 12px;
+  margin-right: 40px;
+}
+.team1 {
+  display: flex;
+  margin: 1.2rem;
+  margin-left: 0.1rem;
+}
+.middle {
+  display: flex;
+  /* height: 500PX; */
+  /* padding-right: 10px; */
+  /* margin-right: 12px; */
+}
+
+.footer {
+  display: flex;
+  font-size: 10px;
+  /* border: 0.1px solid black; */
+  /* margin-left: 3rem; */
+  padding-left: 5px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 2px;
+  /* padding-bottom: 0px;
+  margin-bottom: 0px; */
+  background-color: rgb(218, 212, 212);
+  /* list-style: none; */
+}
+
+.footer2 {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.point_table {
+  padding-left: 8px;
+}
+
+.footer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  color: black;
+  text-overflow: ellipsis;
+  border: 2px solid transparent;
+}
+a:hover {
+  color: rgb(223, 26, 15);
+  border-bottom-color: black;
+  border-top-color: aqua;
+  cursor: pointer;
+}
+
+.over {
+  padding-left: 3rem;
+}
+
+.result {
+  font-size: 12px;
+  color: blue;
+  padding-bottom: 8px;
+  padding-top: 0px;
+}
+.result:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

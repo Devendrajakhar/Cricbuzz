@@ -1,0 +1,75 @@
+body {
+  background-color: rgba(189, 215, 239, 0.836);
+  font-family: cursive;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+  border-spacing: 0 3px;
+  border-collapse: separate;
+}
+.text_centre {
+  text-align: center;
+}
+.table_head_next {
+  font-size: 20px;
+  color: #171717;
+  padding-left: 3px;
+  padding-right: 12px;
+  padding: 12px;
+  /* padding: 20px 20px;*/
+}
+.table_head {
+  border: 1px solid rgb(251, 247, 247);
+  background-color: #cdc9c9;
+}
+td{
+  border: 1px solid rgba(230, 14, 14, 0.91);
+/* margin-top: 12px; */
+}
+.player_name {
+  font-size: 20px;
+  padding-bottom: 8px;
+  padding-top: 3px;
+  background-color: #c5c5ed63;
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  /* font-family: icomoon !important; */
+}
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 3rem;
+}
+a {
+  list-style: none;
+  color: black;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(223, 26, 15);
+  border-bottom-color: black;
+  border-top-color: aqua;
+}
+thead,
+tbody,
+tfoot,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+tr {
+  border: 1px solid green;
+  background-color: rgba(192, 190, 190, 0.299);
+  height: 40px important;
+}
+h5 {
+  margin: 0 0 0 0;
+}
